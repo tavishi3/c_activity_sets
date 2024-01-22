@@ -1,0 +1,2 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets> .\a.exe
+sinchana
