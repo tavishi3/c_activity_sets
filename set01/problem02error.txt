@@ -1,0 +1,5 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets> gcc C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem02.c
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets> .\a.exe  
+Enter a: 5
+Enter b: 4
+5 + 4 = 9 
