@@ -1,0 +1,4 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> gcc problem03.debug.txt -O0 -g
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe:problem03.debug.txt: file format not recognized; treating as linker script
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe:problem03.debug.txt:1: syntax error
+collect2.exe: error: ld returned 1 exit status
