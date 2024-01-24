@@ -1,0 +1,53 @@
+Reading symbols from C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014d5: file problem04.c, line 21.
+(gdb) r
+Starting program: C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01/a.exe 
+[New Thread 5016.0x4cf0]
+[New Thread 5016.0x59ec]
+
+Breakpoint 1, main () at problem04.c:21
+21          a=input();
+(gdb) s
+input () at problem04.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+s
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem04.c:22
+22          b=input();
+(gdb) s
+input () at problem04.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem04.c:23
+23          add(a,b,&s);
+(gdb) s
+add (a=6422476, b=6422476, sum=0x61ff14) at problem04.c:12
+12          *sum=a+b;
+(gdb) s
+13      }
+(gdb) s
+main () at problem04.c:24
+24          output(a,b,s);
+(gdb) s
+output (a=6422476, b=6422476, sum=12844952) at problem04.c:16
+16          printf("The sum of %d and %d is %d",a,b,sum);
+(gdb) s
+The sum of 6422476 and 6422476 is 1284495217    }
+(gdb) s
+main () at problem04.c:25
+25          return 0;
+(gdb) s
+26      }(gdb) s
