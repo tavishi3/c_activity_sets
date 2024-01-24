@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 int input()
 {
@@ -24,5 +23,5 @@ int main()
     b=input();
     sum=add(a,b);
     output(a,b,sum);
-     return 0;
+    return 0;
 }
