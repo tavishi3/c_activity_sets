@@ -1,0 +1,38 @@
+(gdb) b main
+Breakpoint 1 at 0x4014d8: file problem03.c, line 23.
+(gdb) r
+Starting program: C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01/a.exe 
+[New Thread 19188.0x5938]
+[New Thread 19188.0x2ef0]
+
+Breakpoint 1, main () at problem03.c:23
+warning: Source file is more recent than executable.
+23          b=input();
+(gdb) s
+input () at problem03.c:6
+6           scanf("%d",&n);
+(gdb) s
+Enter the value: 7          return n;
+(gdb) 8
+Undefined command: "8".  Try "help".
+(gdb) n
+
+s
+8       }
+(gdb) s
+9       int add(int a, int b)
+(gdb) n
+main () at problem03.c:24
+24          sum=add(a,b);
+(gdb) n
+Enter the value: 25         output(a,b,sum);
+(gdb) 8
+Undefined command: "8".  Try "help".
+(gdb) n
+26          return 0;
+(gdb) 7
+Undefined command: "7".  Try "help".
+(gdb) n
+6422476 + 6422476 = 1284495227  }(gdb)  
+(gdb) q
+A debugging session is active.
