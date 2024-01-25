@@ -1,0 +1,68 @@
+Reading symbols from C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014fb: file problem05.c, line 26.
+(gdb) r
+Starting program: C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01/a.exe 
+[New Thread 17896.0x4cb0]
+[New Thread 17896.0x38cc]
+
+Breakpoint 1, main () at problem05.c:26
+26          a=input();
+(gdb) s
+input () at problem05.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+s
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem05.c:27
+27          b=input();
+(gdb) s
+input () at problem05.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem05.c:28
+28          c=input();
+(gdb) s
+input () at problem05.c:6
+6           printf("Enter a number: ");
+(gdb) s
+Enter a number: 7           scanf("%d",&n);
+(gdb) s
+8           return n;
+(gdb) s
+9       }
+(gdb) s
+main () at problem05.c:29
+29          l=compare(a,b,c);
+(gdb) s
+compare (a=6422476, b=6422476, c=6422476) at problem05.c:12
+12          if(a>=b && a>=c)
+(gdb) s
+13          return a;
+(gdb) s
+18      }
+(gdb) s
+main () at problem05.c:30
+30          output(a,b,c,l);
+(gdb) s
+output (a=6422476, b=6422476, c=6422476, largest=6422476) at problem05.c:21
+21          printf("Largest number of %d, %d and %d is %d",a,b,c,largest);
+(gdb) s
+Largest number of 6422476, 6422476 and 6422476 is 642247622     }
+(gdb) s
+main () at problem05.c:31
+31          return 0;
+(gdb) s
+32      }
+(gdb) s
