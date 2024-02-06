@@ -1,0 +1,12 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC> gcc C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem06debug.txt
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe:C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem06debug.txt: file format not recognized; treating as linker script
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe:C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem06debug.txt:1: syntax error
+collect2.exe: error: ld returned 1 exit status
+PS C:\Users\umesh\OneDrive\Desktop\PSC> cd set01
+cd : Cannot find path 'C:\Users\umesh\OneDrive\Desktop\PSC\set01' because it does not exist.
+At line:1 char:1
++ cd set01
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\umesh\...sktop\PSC\set01:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
