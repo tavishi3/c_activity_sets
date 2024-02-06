@@ -1,0 +1,4 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> gcc C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem07.c
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> .\a.exe  
+Enter n: 6
+The sum of 1st 6 numbers is 21
