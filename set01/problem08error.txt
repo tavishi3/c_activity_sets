@@ -1,0 +1,10 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> gcc C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem08.c
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> .\a.exe  
+Enter the size of the array: 6
+Enter the elements: 5
+Enter the elements: 4
+Enter the elements: 2
+Enter the elements: 8
+Enter the elements: 7
+Enter the elements: 6
+The sum is 32
