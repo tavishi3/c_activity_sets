@@ -1,0 +1,29 @@
+Reading symbols from C:\Users\umesh\OneDrive\Desktop\PSC\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401519
+(gdb) r
+Starting program: C:\Users\umesh\OneDrive\Desktop\PSC/a.exe
+[New Thread 16912.0x68e4]
+[New Thread 16912.0x45f4]
+
+Breakpoint 1, 0x00401519 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter 3 number: s
+Largest number of 3268608, 0 and 11736432 is 117364320x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 16912] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
