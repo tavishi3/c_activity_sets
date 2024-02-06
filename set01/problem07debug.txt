@@ -1,0 +1,75 @@
+Reading symbols from C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014e8: file problem07.c, line 27.
+(gdb) r
+Starting program: C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01/a.exe 
+[New Thread 11576.0x2978]
+[New Thread 11576.0x5cd0]
+
+Breakpoint 1, main () at problem07.c:27
+27          a=input_n();
+(gdb) s
+input_n () at problem07.c:7
+7           printf("Enter n: ");
+(gdb) s
+Enter n: 8          scanf("%d",&n);
+(gdb) s
+s
+9           return n;
+(gdb) s
+10      }
+(gdb) s
+main () at problem07.c:28
+28          s=sum_n_nos(a);
+(gdb) s
+sum_n_nos (n=6422476) at problem07.c:13
+13          int i,sum=0;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) s
+16              sum=sum+i;
+(gdb) s
+14          for(i=0;i<=n;i++)
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 11576] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
