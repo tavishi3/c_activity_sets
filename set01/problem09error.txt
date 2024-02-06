@@ -1,0 +1,5 @@
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> gcc C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01\problem09.c
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> .\a.exe  
+enter the number
+6
+the half of squareroot of 6.000000 is  1.000000
