@@ -1,0 +1,6 @@
+nothing to commit, working tree clean
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> git push 
+Everything up-to-date
+PS C:\Users\umesh\OneDrive\Desktop\PSC\c_activity_sets\set01> gcc problem010.c -o0 -g
+gcc.exe: error: problem010.c: No such file or directory
+gcc.exe: fatal error: no input files
